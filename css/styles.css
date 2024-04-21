@@ -616,8 +616,8 @@ footer .logo-web {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-close:hover,
-.icon-close:focus{
+.modal-window-close:hover .icon-close,
+.modal-window-close:focus .icon-close {
   fill: #ffffff;
 }
 
@@ -723,7 +723,7 @@ footer .logo-web {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  
+
   transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   display: inline-flex;
